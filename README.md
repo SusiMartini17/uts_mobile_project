@@ -8,7 +8,7 @@ Project ini dibuat sesuai soal UTS Pemrograman Mobile 2.
 - List Informasi (CRUD using SharedPreferences JSON)
 - Drawer + BottomNavigation
 - About + GitHub link
-- Peta (flutter_map) - optional
+- Peta (flutter_map)
 
 ## Cara menjalankan
 1. Pastikan Flutter SDK sudah terpasang.
@@ -19,5 +19,5 @@ Project ini dibuat sesuai soal UTS Pemrograman Mobile 2.
 
 ## Catatan penting
 - Ganti URL GitHub di `lib/screens/about_screen.dart` setelah upload.
-- Untuk demo sederhana saya menggunakan SharedPreferences. Jika ingin menggunakan SQLite (sqflite) beri tahu.
-- Nama dan NPM di splash/about sudah diisi: Susi Martini / 23552011178 — ganti jika perlu.
+- Untuk demo sederhana menggunakan SharedPreferences.
+- Nama dan NPM di splash/about sudah diisi: **Susi Martini / 23552011178**.
