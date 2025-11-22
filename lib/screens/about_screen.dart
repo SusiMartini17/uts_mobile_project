@@ -9,7 +9,7 @@ class AboutScreen extends StatelessWidget {
 
   void _openGithub() async {
     final url = Uri.parse(
-        'https://github.com/YOUR_USERNAME/REPO_NAME'); // ganti jika sudah upload
+        'https://github.com/SusiMartini17/uts_mobile_project'); // ganti jika sudah upload
     if (await canLaunchUrl(url)) {
       await launchUrl(url);
     }

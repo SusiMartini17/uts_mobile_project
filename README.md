@@ -1,23 +1,27 @@
-# UTS Pemrograman Mobile 2 - Aplikasi Demo
+# UTS Pemrograman Mobile 2 – Aplikasi Demo Flutter
+**Nama:** Susi Martini  
+**NPM:** 23552011178  
+**Kelas:** TIF K 23 B  
 
-Project ini dibuat sesuai soal UTS Pemrograman Mobile 2.
+Aplikasi ini dibuat untuk memenuhi tugas UTS Pemrograman Mobile 2.  
+Project berisi fitur dasar seperti Splash Screen, Login/Register, CRUD sederhana, Navigasi, dan Tampilan Peta.
 
-## Isi project
-- SplashScreen
-- Login/Register (simple, stored in SharedPreferences)
-- List Informasi (CRUD using SharedPreferences JSON)
-- Drawer + BottomNavigation
-- About + GitHub link
-- Peta (flutter_map)
+---
 
-## Cara menjalankan
-1. Pastikan Flutter SDK sudah terpasang.
-2. Buka folder project: `cd uts_mobile_project`
-3. Jalankan: `flutter pub get`
-4. Jalankan di emulator/device: `flutter run`
-5. Build APK: `flutter build apk --release`
+## 📱 Fitur Aplikasi
+- **Splash Screen**
+- **Login & Register** (SharedPreferences)
+- **CRUD Data Informasi** (JSON di SharedPreferences)
+- **Bottom Navigation + Drawer**
+- **Halaman About**
+- **Link GitHub Repository**
+- **Halaman Peta** menggunakan `flutter_map`
 
-## Catatan penting
-- Ganti URL GitHub di `lib/screens/about_screen.dart` setelah upload.
-- Untuk demo sederhana menggunakan SharedPreferences.
-- Nama dan NPM di splash/about sudah diisi: **Susi Martini / 23552011178**.
+---
+
+## 🛠️ Teknologi yang Digunakan
+- Flutter SDK
+- Dart
+- SharedPreferences
+- flutter_map + OpenStreetMap
+- Material Design Flutter
